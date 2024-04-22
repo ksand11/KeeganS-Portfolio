@@ -24,8 +24,10 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Keegan Sanders"
 description              : "Portfolio site for Keegan Sanders."
 url                      : "https://ksand11.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/splash" #"/home" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/home" # the subpath of your site, e.g. "/blog"
 repository               : "ksand11/420-portfolio" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+github                   :
+  token                  : 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
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -284,11 +286,9 @@ defaults:
   # _posts
   - scope:
       path: ""
-     # type: posts
-    type: splash
+      type: posts
     values:
-      # layout: single
-      layout: splash
+      layout: single
       author_profile: true
       read_time: true
       comments: # true
