@@ -1,11 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: https://ksand11.github.io/420-portfolio/
   - title: "About"
     url: https://ksand11.github.io/420-portfolio/about
-  - title: "Portfolio"
-    url: https://ksand11.github.io/420-portfolio/portfolio
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
