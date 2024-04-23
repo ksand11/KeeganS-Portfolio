@@ -9,11 +9,89 @@ header:
 ---
 
 <div class="content">
-  <h1>Lorem Ipsum Sample Blog Post</h1>
-  <h2>Heading 1</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  <h2>Heading 2</h2>
-  <p>Nulla facilisi. Sed euismod, nunc in aliquet aliquam, lectus mi tincidunt urna, vitae aliquet nisl nunc id neque.</p>
-  <h2>Heading 3</h2>
-  <p>Phasellus euismod, mauris id aliquam tincidunt, nunc nisl tincidunt nunc, id lacinia nunc nunc vitae nunc.</p>
+  <h2>Introduction</h2>
+  <p>Over the summer of 2023, I was half of a two-man team that created a trivia maze 
+    game for our Software Development and QA Techniques junior capstone course. 
+    The primary technologies used were Java Swing, utilizing SQLite as our database, 
+    and followed both the Model-View-Controller and Factory design patterns. <br><br>
+
+    Developed over a shortened 8-week quarter, we learned valuable technical skills 
+    like serialization and new productivity-tracking tools, and how to efficiently 
+    work as a team. Relying on one another, maintaining effective communication, and 
+    adapting to troubleshooting at a rapid pace was crucial to our success.
+  </p>
+  <h5>How might we design a trivia maze game with challenging trivia to 
+    engage players of diverse skill levels?
+  </h5>
+  <h2>Software Development Process</h2>
+  <h3>User Stories</h3>
+  <p>Part of the project requirements included creating user stories. The format we 
+    followed compiled user needs collected from ourselves, classmates, and friends who also 
+    assisted us in testing our game. For each of these, we would calculate the amount of time 
+    and code that it would take to implement, consider alternative methods of meeting or 
+    mitigating the impact of the feature in our timeline. 
+  </p>
+  <h3>UML Diagram</h3>
+  <p>The structure of our project is detailed in our Unified Modeling Language (UML) Diagram. 
+    UMLs are a commonly used visual representation of code, created to assist understanding 
+    aspects of a system’s architecture. Our diagram specifically highlights the methods of 
+    each class, the relationships between the logic controllers and the UI of our project, 
+    and the flow of information.
+  </p>
+  <h3>Factory Design Pattern</h3>
+  <p>The Trivia Maze uses the Factory design pattern to generate questions in the game. 
+    Factories are useful when implementing multiple objects with similar attributes. Each of our 
+    questions is accompanied by its type, correct answer, and incorrect answer(s) (when applicable). 
+    Since the maze is randomized, our logic controller retrieves a question from the database each time 
+    a user enters a “room”, so the dead ends are determined by the player’s skills!
+  </p>
+  <h3>Difficulties</h3>
+  <p>Developing this project came with numerous difficulties and challenges to overcome. 
+    As the only group of 2 in a class full of 3-person teams, we felt an enormous amount of pressure
+     to perform up to the standards that were placed on us. Determined to not let our small size stop 
+     us from succeeding, we maintained in almost constant contact throughout the quarter over 
+     multiple modes of communication. We were able to formulate an agile sprint cycle that worked 
+     for both of our schedules among outside obligations and work from other classes.
+  </p>
+  <h3>Model-View-Controller design pattern</h3>
+  <p>About halfway through the quarter, we found ourselves drowning in a pile of Java objects, 
+     overcomplicated datapaths, and more code Band-Aids than we could count. Over one of our 
+     longest meetings, we swallowed our pride and returned to the core functionality of the game.
+      We weighed features we wanted to include and aspects that were required for the game to
+       perform against our remaining timeline. Concluding that we may have been quick to 
+       jump into the trenches of programming, we began the implementation of the 
+       Model-View-Controller design pattern. Concisely, MVC removes the bulk of the 
+       program from the front-facing code, instead organizing the logic in the Model. 
+       The Controller serves as an intermediary, handling user input from the View and performing updates to the Model as needed, then directing the View to reflect the necessary changes back to the user. Using this structure greatly increased the efficiency of our objects and methods, and despite the initial learning curve it made for much more readable code. It was a difficult decision, although by the end the transition allowed for practicing industry-level principles and taught us to further develop the higher level planning of our project.
+  </p>
+  <h3>Technologies</h3>
+  <p>For our database needs we made use of SQLite, a lightweight database management 
+    system that is contained as a single file in the program itself, rather than needing 
+    to be outsourced to a fully comprehensive DBMS. I primarily worked on this part of the 
+    project, and as I had only lightly touched on the topic before, it was a lesson in
+     combining technologies and ensuring data validation across the system. I have 
+     since been able to use SQLite in other projects, much better prepared due to my 
+     experience developing the Trivia Maze. <br><br>
+
+     My teammate implemented serialization for saving and loading instances of the game.
+      Shortly stated, serialization is the optimized conversion of the game’s current state
+       into a condensed version, able to be easily stored and retrieved for future use. 
+       This process was very in-depth, as it required all state-having objects in our code 
+       to be serialized and neatly organized in the database, then redeployed upon loading a save file.
+  </p>
+  <h3>Reflection</h3>
+  <p>This project was essential for my growth as a student, programmer, and designer. 
+    Managing components of a program on a scale of which I had not contributed to before 
+    was intimidating and at times I struggled to make forward progress. Being a summer 
+    course, time was limited, resources were largely self-sourced, and my attention was 
+    competed for by stolen moments of summer vacation. I am grateful to have had the
+     opportunity to work on this project with my friend, who supported me as I 
+     supported him through these challenges. It strengthened my perseverance, 
+     encouraged me to think creatively to solve formulaic problems, and proved the 
+     value of structural design as a prerequisite for the following operational tasks. 
+     This case not only expanded my technical skills and problem-solving abilities 
+     but also highlighted the importance of collaboration, perseverance, and
+      thoughtful design in software development.
+  </p>
+  
 </div>
