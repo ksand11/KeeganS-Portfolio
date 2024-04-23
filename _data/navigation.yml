@@ -14,21 +14,20 @@ main:
   #   url: /sitemap/
 
 triviamaze:
-  - title: Trivia Maze
-    children:
-      - title: "Introduction"
-        url: /trivia-maze/#intro
-      - title: "Software Development Process"
-        url: /trivia-maze/#software
-        children:
-          - title: "UML"
-            url: /trivia-maze/#uml
-          - title: "Factory design pattern"
-            url: /trivia-maze/#factory
-          - title: "Difficulties"
-            url: /trivia-maze/#difficulties
-          - title: "Technologies"
-            url: /trivia-maze/#technologies
+  - title: "Introduction"
+    url: /trivia-maze/#intro
 
-      - title: "Reflection"
-        url: /trivia-maze/#reflection
+  - title: "Software Development Process"
+    url: /trivia-maze/#software
+    children:
+    - title: "UML"
+      url: /trivia-maze/#uml
+    - title: "Factory design pattern"
+      url: /trivia-maze/#factory
+    - title: "Difficulties"
+      url: /trivia-maze/#difficulties
+    - title: "Technologies"
+      url: /trivia-maze/#technologies
+
+  - title: "Reflection"
+    url: /trivia-maze/#reflection
