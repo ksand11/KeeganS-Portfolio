@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Keegan Sanders"
   avatar           : "assets/images/defaultpic.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Engineering design solutions to break down language barriers in Human-Computer Interaction"
+  # bio              : "Engineering design solutions to break down language barriers in Human-Computer Interaction"
   location         : "Olympia, WA"
   email            : sanderskn11@gmail.com
   links:
