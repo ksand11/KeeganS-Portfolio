@@ -31,3 +31,24 @@ triviamaze:
 
   - title: "Reflection"
     url: /trivia-maze/#reflection
+
+trailsigns:
+  - title: "Introduction"
+    url: /trail-signs/#intro
+  - title: "What is Silver Linings?"
+    url: /trail-signs/#silver
+  - title: "The Problem"
+    url: /trail-signs/#problem
+  - title: "The Solution"
+    url: /trail-signs/#solution
+    children:
+    - title: "Stakeholder Interview"
+      url: /trail-signs/#interview
+    - title: "Design Analysis"
+      url: /trail-signs/#design
+    - title: "User Testing"
+      url: /trail-signs/#testing
+
+  - title: "Reflection"
+    url: /trail-signs/#reflection
+  
