@@ -37,8 +37,10 @@ triviamaze:
 trailsigns:
   - title: "Introduction"
     url: /trail-signs/#intro
-  - title: "What is Silver Linings?"
-    url: /trail-signs/#silver
+    children:
+    - title: "What is Silver Linings?"
+      url: /trail-signs/#silver
+
   - title: "The Problem"
     url: /trail-signs/#problem
   - title: "The Solution"
