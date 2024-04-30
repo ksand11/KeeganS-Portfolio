@@ -43,15 +43,21 @@ trailsigns:
 
   - title: "The Problem"
     url: /trail-signs/#problem
+    children:
+    - title: "Customer Problems"
+      url: /trail-signs/#problems
+      
   - title: "The Solution"
     url: /trail-signs/#solution
     children:
     - title: "Stakeholder Interview"
       url: /trail-signs/#interview
-    - title: "Design Analysis"
-      url: /trail-signs/#design
+    - title: "Iterations"
+      url: /trail-signs/#iterations
     - title: "User Testing"
       url: /trail-signs/#testing
+    - title: "Design Analysis"
+      url: /trail-signs/#design
     - title: "My Part"
       url: /trail-signs/#part
 
