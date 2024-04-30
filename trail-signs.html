@@ -62,11 +62,63 @@ sidebar:
     <div>
       <img src="../assets/images/iterations.png" alt="Iterations" class="full align-left">
     </div>
-    <br><br><br><br><br><br><br><br><br><br><br>
     <h4 id="design">Design Analysis</h4>
-    <div id="design-container" class="notice">
+    <style>
+      .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+      }
+      .image {
+          width: 50%;
+          max-width: 100%;
+          height: auto;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+      }
+      .description {
+          position: absolute;
+          width: 30%;
+          text-align: center;
+          font-size: 14px;
+          padding: 10px;
+          background-color: rgba(255, 255, 255, 0.8);
+          border-radius: 5px;
+      }
+      .left {
+          left: 5%;
+      }
+      .right {
+          right: 5%;
+      }
+  </style>
+  <div class="design-container">
+      <img src="../assets/images/finaliteration.jpg" alt="Image" class="image">
+      <div class="description left" style="top: 30%;">
+          <p>Information about the trail and terrain ahead to help users make informed decisions based on their goals and ability.</p>
+      </div>
+      <div class="description left" style="top: 50%;">
+        <p>Features that are available on the trail ahead keep users aware of how to access what they may need.</p>
+      </div>
+      <div class="description left" style="top: 70%;">
+        <p>A QR code enables tech-savvy users to access a digital map.</p>
+      </div>
+      <div class="description right" style="top: 30%;">
+          <p>Clear directions to the closest exit are eye-catching and guide those who may be lost.</p>
+      </div>
+      <div class="description right" style="top: 50%;">
+          <p>Facts about local plant- and wildlife add immersion to those looking for an enriched exeperience in nature.</p>
+      </div>
+      <div class="description right" style="top: 70%;">
+          <p>Credit to our stakeholders informs users of the goals of the design.</p>
+      </div>
+  </div>
+    <!-- <div id="design-container" class="notice">
       <img src="../assets/images/finaliteration.jpg" alt="Final Iteration" class="align-center" style="width: 50%;">
-    </div>
+    </div> -->
     <h4 id="part">My Part</h4>
     <p>My contribution towards this project was largely collaborative, as our group did much of the work together. However, when work was delegated, I was responsible for the overall concept of the design, incorporating the sectioned elements of information to provide a consistent layout for users. Additionally, I compiled the list of features to be included in each section, and collected visual assets to increase language access through the use of universal symbols.</p>
     <h2 id="reflection">Reflection</h2>
