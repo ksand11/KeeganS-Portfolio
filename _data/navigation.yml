@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Home"
-    url: https://ksand11.github.io/420-portfolio/
+    url: https://ksand11.github.io/420-portfolio/pages
   - title: "About"
-    url: https://ksand11.github.io/420-portfolio/about
+    url: https://ksand11.github.io/420-portfolio/pages/about
   - title: "Portfolio"
     url: https://ksand11.github.io/420-portfolio/portfolio
   # - title: "About"
