@@ -242,14 +242,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
-
-# Collections
-collections:
-portfolio:
-  output: true
-  permalink: /:collection/:path/
-
+  
 
 # Archives
 #  Type
