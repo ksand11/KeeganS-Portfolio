@@ -263,7 +263,7 @@ portfolio:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /portfolio/
 tag_archive:
   type: liquid
   path: /tags/
