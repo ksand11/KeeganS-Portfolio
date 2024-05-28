@@ -5,6 +5,7 @@ collection: portfolio
 permalink: /portfolio/
 author_profile: true
 entries_layout: list
+entries_order: reverse
 classes: wide
 ---
 
