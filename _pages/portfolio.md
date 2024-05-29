@@ -4,7 +4,7 @@ layout: collection
 collection: portfolio
 permalink: /portfolio/
 author_profile: true
-entries_layout: list
+entries_layout: grid
 entries_order: reverse
 classes: wide
 ---

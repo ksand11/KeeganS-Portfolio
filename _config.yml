@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Keegan Sanders"
   avatar           : "assets/images/face.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  # bio              : "Engineering design solutions to break down language barriers in Human-Computer Interaction"
+  bio              : "Squashing bugs, one missing semicolon at a time"
   location         : "Olympia, WA"
   links:
     - label: "Email"
