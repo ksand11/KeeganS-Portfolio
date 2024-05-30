@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Keegan Sanders"
   avatar           : "assets/images/face.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Squashing bugs, one missing semicolon at a time"
+  bio              : "Squashing bugs, one missing semicolon at a time."
   location         : "Olympia, WA"
   links:
     - label: "Email"
