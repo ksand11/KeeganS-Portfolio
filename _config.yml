@@ -133,6 +133,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/keegan-sanders-882962196"
+    - label: "CodePen"
+      icon: "fab fa-fw fa-codepen"
+      url: "https://codepen.io/Keegan11"
 
 # Site Footer
 footer:
