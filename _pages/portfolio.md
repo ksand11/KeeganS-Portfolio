@@ -3,9 +3,8 @@ title: "Portfolio"
 layout: collection
 collection: portfolio
 permalink: /portfolio/
-author_profile: true
+# author_profile: true
 entries_layout: grid
-entries_order: reverse
 classes: wide
 ---
 
