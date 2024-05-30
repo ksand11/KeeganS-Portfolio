@@ -11,6 +11,12 @@
 {% endif %}
 
 <style>
+  @media (min-width: 48em) {
+  .container {
+      max-height: 149px;
+  }
+  }
+
   .image {
     display: block;
     width: 100%;
@@ -54,7 +60,8 @@
     </h2> -->
     {% if include.type == "grid" and teaser %}
     <a href="{{ post.url | relative_url }}" rel="permalink">
-      <div class="archive__item-teaser container" style="max-height: 5%;">
+      <div class="archive__item-teaser container" style="max-height:;">
+        <!--  -->
         <img src="{{ teaser | relative_url }}" alt="" />
         <div class="overlay">
           <!-- {% if post.link %}
