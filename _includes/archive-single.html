@@ -47,14 +47,14 @@
   }
 </style>
 
-<div class="{{ include.type | default: 'list' }}__item" style="min-width: 30%;">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork" style="height: 100%; width: 100%;">
+<div class="{{ include.type | default: 'list' }}__item" style="min-width: 30%; max-height: 100%">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     <!-- <h2 class="archive__item-title no_toc" itemprop="headline">
       
     </h2> -->
     {% if include.type == "grid" and teaser %}
     <a href="{{ post.url | relative_url }}" rel="permalink">
-      <div class="archive__item-teaser container" style="height: 100%; padding-bottom: 50px;">
+      <div class="archive__item-teaser container">
         <img src="{{ teaser | relative_url }}" alt="" />
         <div class="overlay">
           <!-- {% if post.link %}
