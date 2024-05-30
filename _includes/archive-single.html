@@ -10,18 +10,58 @@
   {% assign title = post.title %}
 {% endif %}
 
+<style>
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    /* color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%; */
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
+    <!-- <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+    </h2> -->
     {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
+      <div class="archive__item-teaser container">
+        <img src="{{ teaser | relative_url }}" alt="" />
+        <div class="overlay">
+          {% if post.link %}
+            <a href="{{ post.link }}" class="text">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"  class="text"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          {% else %}
+            <a href="{{ post.url | relative_url }}" rel="permalink"  class="text">{{ title }}</a>
+          {% endif %}
+        </div>
       </div>
     {% endif %}
     {% include page__meta.html type=include.type %}
