@@ -25,7 +25,7 @@ name                     : "Keegan Sanders"
 description              : "Portfolio site for Keegan Sanders."
 url                      : "https://ksand11.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # "/home" # the subpath of your site, e.g. "/blog"
-repository               : "ksand11/420-portfolio" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "ksand11/KeeganS-Portfolio" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 github                   : [metadata]
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
