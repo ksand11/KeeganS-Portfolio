@@ -126,15 +126,15 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ksand11"
+      # url: "https://github.com/ksand11"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/keegan-sanders-882962196"
-    # - label: "CodePen"
-    #   icon: "fab fa-fw fa-codepen"
+    - label: "CodePen"
+      icon: "fab fa-fw fa-codepen"
     #   url: "https://codepen.io/Keegan11"
 
 # Site Footer
